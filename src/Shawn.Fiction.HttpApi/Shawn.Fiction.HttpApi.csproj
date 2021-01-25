@@ -9,14 +9,11 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Shawn.Fiction.Application.Contracts\Shawn.Fiction.Application.Contracts.csproj" />
+    <ProjectReference Include="..\Shawn.Fiction.Application\Shawn.Fiction.Application.csproj" />
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Volo.Abp.Account.HttpApi" Version="4.1.2" />
     <PackageReference Include="Volo.Abp.Identity.HttpApi" Version="4.1.2" />
-    <PackageReference Include="Volo.Abp.PermissionManagement.HttpApi" Version="4.1.2" />
-    <PackageReference Include="Volo.Abp.TenantManagement.HttpApi" Version="4.1.2" />
-    <PackageReference Include="Volo.Abp.FeatureManagement.HttpApi" Version="4.1.2" />
   </ItemGroup>
 
 </Project>

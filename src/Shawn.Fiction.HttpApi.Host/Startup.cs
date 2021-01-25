@@ -9,7 +9,7 @@ namespace Shawn.Fiction
     {
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddApplication<FictionHttpApiHostModule>();
+            services.AddApplication<ShawnFictionHttpApiHostingModule>();
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env, ILoggerFactory loggerFactory)
